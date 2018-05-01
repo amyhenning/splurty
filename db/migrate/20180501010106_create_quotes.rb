@@ -4,6 +4,5 @@ class CreateQuotes < ActiveRecord::Migration[5.0]
       t.string :saying
       t.string :author
       t.timestamps
-    end
   end
 end
