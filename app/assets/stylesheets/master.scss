@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+
 @import "bootstrap";
 
 .clear {
@@ -26,20 +28,24 @@
 }
 
 .slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-  font-style: italic;
-  font-size: 25px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-style: bold;
+  font-size: 30px;
   padding-top: 26px;
+  text-align: center;
 }
 
 .links {
   padding-top: 26px;
+  text-align: center;
 }
 
 .links a {
   color: #000; 
   font-size: 25px;
   border-bottom: 1px solid #f4d142;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -48,4 +54,15 @@ header {
 
 hr {
   clear:both;
+}
+
+h1
+{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h2 {
+  font-family: 'Alegreya Sans', sans-serif;
 }
