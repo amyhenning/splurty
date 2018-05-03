@@ -3,14 +3,10 @@ class QuotesController < ApplicationController
       @quote = Quote.order("RANDOM()").first
   end
 
-  def new
-  	@quote = Quote.new
-  end
-
   def create
   	@quote = Quote.create(quote_params)
   	if @quote.invalid?
-  		flash[:error] = '<strong>Could not save</strong>: the data you entered is invalid'
+  		flash[:error] = '<strong>Could not save</strong>: The data you entered is invalid. Quotes must be between 3-140 characters.'
   	end
   	redirect_to root_path
   end
