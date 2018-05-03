@@ -33,7 +33,21 @@
 
     <br class="clear" />
 
+  <div class="container">
     <%= yield %>
+  </div>
 
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <%= link_to "Show a different quote.", "#", class: "next-quote" %>
+        </div>
+        <div class="col-6 footer-blurb">
+          Created by Amy Henning in Fort Collins, CO.
+        </div>
+      </div>
+    </div>
+  </div>
   </body>
 </html>
