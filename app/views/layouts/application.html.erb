@@ -11,20 +11,20 @@
   <body>
     <header class="row">
       <div class="col-3">
-        <div class="circle">
-          <br />
-          Middle-Earth
-          <br />
-          Quote Generator
-      
-          
-        </div>
+        <%= link_to root_path, class: 'logo' do %>
+          <div class="circle">
+            <br />
+            Middle-Earth
+            <br />
+            Quote Generator
+          </div>
+        <% end %>
       </div>
       <div class="col-4 slogan">
         Tolkien Quotes at Random
       </div>
       <div class="col-5 links">
-        <%= link_to 'Contribute', '#' %>
+        <%= link_to 'Contribute', new_quote_path %>
         <%= link_to 'About', '#' %>
       </div>
     </header>
@@ -41,10 +41,10 @@
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <%= link_to "Show a different quote.", "#", class: "next-quote" %>
+          <%= link_to "Show a different quote.", root_path, class: "next-quote" %>
         </div>
         <div class="col-6 footer-blurb">
-          Created by Amy Henning in Fort Collins, CO.
+          Created by Amy Henning in Fort Collins, CO
         </div>
       </div>
     </div>
