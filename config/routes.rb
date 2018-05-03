@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 Rails.application.routes.draw do 
   root 'quotes#index'
   resources :quotes
+  get 'about', to: 'quotes#about'
 end
 
 end
