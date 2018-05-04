@@ -20,12 +20,12 @@
           </div>
         <% end %>
       </div>
-      <div class="col-4 slogan">
+      <div class="col-sm-4 hidden-xs-down slogan">
         Tolkien Quotes at Random
       </div>
       <div class="col-5 links">
         <!-- Button trigger modal -->
-        <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
+        <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %> &nbsp;&nbsp;
         <%= link_to 'About', about_path %>
       </div>
     </header>
@@ -44,8 +44,9 @@
           </div>
           <%= simple_form_for Quote.new do |f| %>
             <div class="modal-body">
-              <%= f.input :saying %>
-              <%= f.input :book %>
+              <%= f.input :saying, label: "What is the quote you want to add?", placeholder: "One ring to rule them all." %>
+              <br />
+              <%= f.input :book, label: "Which Tolkien book is the quote from?", placeholder: "The Fellowship of the Ring" %>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -73,10 +74,10 @@
   <div class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-6">
+        <div class="col-12 col-sm-6">
           <%= link_to "Show a different quote.", root_path, class: "next-quote" %>
         </div>
-        <div class="col-6 footer-blurb">
+        <div class="col-12 col-sm-6 footer-blurb">
           Created by Amy Henning in Fort Collins, CO
         </div>
       </div>

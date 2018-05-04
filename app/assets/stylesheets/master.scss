@@ -66,6 +66,14 @@ h1
 
 h2 {
   font-family: 'Alegreya Sans', sans-serif;
+}
+
+h2 span {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #8e8e86;
+}
+
+.book-title {
   font-style: italic;
 }
 
@@ -77,9 +85,8 @@ h2 {
 
 .footer-blurb {
   font-family: 'Alegreya Sans', sans-serif;
+  font-size: 14px;
   text-align: right;
-  font-size: 15px;
-
 }
 
 .logo:hover {
@@ -107,4 +114,18 @@ a:active {
 
 .about {
   font-family: 'Alegreya Sans', sans-serif;  
+}
+
+@media (max width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: 'Alegreya Sans', sans-serif;  
+}
+
+::selection {
+  background-color: #f4d142;
 }

@@ -6,7 +6,7 @@ class QuotesController < ApplicationController
   def create
   	@quote = Quote.create(quote_params)
   	if @quote.invalid?
-  		flash[:error] = '<strong>Could not save</strong>: The data you entered is invalid. Quotes must be between 3-140 characters.'
+  		flash[:error] = '<strong>Could not save</strong>: The data you entered is invalid. Quotes must be between 3-300 characters.'
   	end
   	redirect_to root_path
   end
