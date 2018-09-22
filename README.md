@@ -6,8 +6,10 @@ Splurty is a database-powered random quote generator. Built on Ruby on Rails wit
 
 * Random quotes displayed with each page refresh, click of "Show a different quote," or the logo
 
-![homepage](https://github.com/amyhenning/splurty/blob/master/app/assets/images/homepage.png?raw=true)
+* User quote submission
 
-* Ability for users to contribute quotes
+* Mobile-first design using Bootstrap
+
+![homepage](https://github.com/amyhenning/splurty/blob/master/app/assets/images/homepage.png?raw=true)
 
 ![add quote modal](https://github.com/amyhenning/splurty/blob/master/app/assets/images/modal.png?raw=true)
