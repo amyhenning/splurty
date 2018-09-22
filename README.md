@@ -2,7 +2,7 @@
 
 Splurty is a database-powered random quote generator. Built on Ruby on Rails with a PostgreSQL database, the front-end uses HTML, CSS, embedded Ruby, and Bootstrap for responsive, mobile-first design. The app is deployed on Heroku.
 
-Features
+## Features
 
 * Random quotes displayed with each page refresh, click of "Show a different quote," or the logo
 
