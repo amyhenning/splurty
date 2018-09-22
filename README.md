@@ -1,24 +1,13 @@
-# README
+# Splurty
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Splurty is a database-powered random quote generator. Built on Ruby on Rails with a PostgreSQL database, the front-end uses HTML, CSS, embedded Ruby, and Bootstrap for responsive, mobile-first design. The app is deployed on Heroku.
 
-Things you may want to cover:
+Features
 
-* Ruby version
+* Random quotes displayed with each page refresh, click of "Show a different quote," or the logo
 
-* System dependencies
+![homepage](https://github.com/amyhenning/splurty/blob/master/app/assets/images/homepage.png?raw=true)
 
-* Configuration
+* Ability for users to contribute quotes
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![add quote modal](https://github.com/amyhenning/splurty/blob/master/app/assets/images/modal.png?raw=true)
