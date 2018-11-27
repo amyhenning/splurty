@@ -48,8 +48,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Include bootstrap
-gem 'popper_js', '~> 1.12.9'
-gem 'bootstrap', '>= 4.1.2'
+gem 'popper_js', '~> 1.11.1'
+gem 'bootstrap', '4.0.0.alpha6'
 gem 'simple_form'
 gem 'loofah', '>= 2.2.3'
 gem 'rack', '>= 2.0.6'
