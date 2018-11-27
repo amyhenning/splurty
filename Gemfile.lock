@@ -59,7 +59,7 @@ GEM
     crass (1.0.4)
     erubis (2.7.0)
     execjs (2.7.0)
-    ffi (1.9.23)
+    ffi (1.9.25)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     i18n (1.0.1)
@@ -173,6 +173,7 @@ DEPENDENCIES
   bootstrap (= 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
+  ffi (>= 1.9.24)
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
