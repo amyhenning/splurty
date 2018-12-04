@@ -44,9 +44,9 @@
           </div>
           <%= simple_form_for Quote.new do |f| %>
             <div class="modal-body">
-              <%= f.input :saying, label: "What is the quote you want to add?", placeholder: "One ring to rule them all." %>
+              <%= f.input :saying, label: "Quote:", placeholder: "One ring to rule them all." %>
               <br />
-              <%= f.input :book, label: "Which Tolkien book is the quote from?", placeholder: "The Fellowship of the Ring" %>
+              <%= f.input :book, label: "Tolkien Book:", placeholder: "The Fellowship of the Ring" %>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
